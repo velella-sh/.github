@@ -29,12 +29,6 @@
   The open almanac of software end-of-life.
 </p>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/@velella/ebb"><img alt="npm" src="https://img.shields.io/npm/v/@velella/ebb?label=npm&logo=npm&logoColor=white&labelColor=1F1F28&color=3F6E66&style=flat"></a>
-  <a href="https://github.com/velella-sh/ebb/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/velella-sh/ebb/ci.yml?branch=main&label=CI&logo=github&logoColor=white&labelColor=1F1F28&color=3F6E66&style=flat"></a>
-  <a href="https://github.com/velella-sh/ebb/tree/main/registry"><img alt="rules: 752" src="https://img.shields.io/badge/rules-752-3F6E66?labelColor=1F1F28&style=flat"></a>
-</p>
-
 Ebb is an open dataset of what is deprecated, unsupported, end-of-life or removed, since when, and what to move to. Every rule names its component by [purl](https://github.com/package-url/purl-spec), its versions by [VERS](https://github.com/package-url/vers-spec), and cites the source it came from. It covers 752 rules across 25 ecosystems, with a small TypeScript library to read them, offline.
 
 ```ts
