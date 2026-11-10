@@ -11,101 +11,54 @@
 
 ---
 
-<h3 align="center">Our projects</h3>
+<h2 align="center">Projects</h2>
 
-<p align="center">
-  <a href="https://github.com/velella-sh/ebb">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/ebb/main/.github/assets/mark-night.svg">
-      <img src="https://raw.githubusercontent.com/velella-sh/ebb/main/.github/assets/mark-day.svg" width="64" height="64" alt="Ebb">
-    </picture>
-  </a>
-</p>
-
-<h2 align="center"><a href="https://github.com/velella-sh/ebb">Ebb</a></h2>
-
-<p align="center">
-  <strong>Nothing ships forever. Everything ebbs.</strong><br>
-  The open almanac of software end-of-life.
-</p>
-
-Ebb is an open dataset of what is deprecated, unsupported, end-of-life or removed, since when, and what to move to. Every rule names its component by [purl](https://github.com/package-url/purl-spec), its versions by [VERS](https://github.com/package-url/vers-spec), and cites the source it came from. It covers 752 rules across 25 ecosystems, with a small TypeScript library to read them, offline.
-
-```ts
-import { lookupProduct } from "@velella/ebb/lookup";
-
-const node = await lookupProduct("node", "18.20.4");
-node.status;    // "end-of-life"
-node.deadline;  // "2025-04-30"
-```
-
-Your agent's knowledge has a cutoff. Ebb doesn't.
-
-**[Read the docs](https://velella.sh/ebb/)** · **[README](https://github.com/velella-sh/ebb#readme)** · **[Browse the rules](https://github.com/velella-sh/ebb/tree/main/registry)** · **[Contribute a rule](https://github.com/velella-sh/ebb/blob/main/CONTRIBUTING.md)**
-
----
-
-<h3 align="center">The docs stack</h3>
-
-<p align="center">
-  <a href="https://github.com/velella-sh/mizzen">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/mizzen/main/.github/assets/mark-night.svg">
-      <img src="https://raw.githubusercontent.com/velella-sh/mizzen/main/.github/assets/mark-day.svg" width="64" height="64" alt="Mizzen">
-    </picture>
-  </a>
-</p>
-
-<h2 align="center"><a href="https://github.com/velella-sh/mizzen">Mizzen</a></h2>
-
-<p align="center">
-  <strong>Same input. Same site.</strong>
-</p>
-
-Mizzen is a deterministic docs engine. It turns a folder of Markdown into a fast, right-to-left-ready static site, and every page keeps its exact source positions, so a person or a coding agent can fix the right line.
-
-```sh
-npm install --save-dev @velella/mizzen @velella/lateen
-npx mizzen build . --out dist
-```
-
-**[Read the docs](https://velella.sh/mizzen/)** · **[GitHub](https://github.com/velella-sh/mizzen)** · **[npm](https://www.npmjs.com/package/@velella/mizzen)**
-
-<p align="center">
-  <a href="https://github.com/velella-sh/lateen">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/lateen/main/.github/assets/mark-night.svg">
-      <img src="https://raw.githubusercontent.com/velella-sh/lateen/main/.github/assets/mark-day.svg" width="64" height="64" alt="Lateen">
-    </picture>
-  </a>
-</p>
-
-<h2 align="center"><a href="https://github.com/velella-sh/lateen">Lateen</a></h2>
-
-<p align="center">
-  <strong>Easy to read. Safe to edit.</strong>
-</p>
-
-Lateen is the docs theme for people and agents, built on Mizzen: layouts, components and design tokens that work without JavaScript and are tested against WCAG 2.2 AA.
-
-```yaml
-theme:
-  name: "@velella/lateen"
-```
-
-**[Read the docs](https://velella.sh/lateen/)** · **[GitHub](https://github.com/velella-sh/lateen)** · **[npm](https://www.npmjs.com/package/@velella/lateen)**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/velella-sh/ebb"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/ebb/main/.github/assets/mark-night.svg"><img src="https://raw.githubusercontent.com/velella-sh/ebb/main/.github/assets/mark-day.svg" width="48" height="48" alt="Ebb"></picture></a>
+      <h3><a href="https://github.com/velella-sh/ebb">Ebb</a></h3>
+      <p><em>Nothing ships forever. Everything ebbs.</em></p>
+      <p>The open almanac of software end-of-life. 752 rules across 25 ecosystems say what is deprecated, unsupported or removed, since when, and what to move to. Every rule cites its source, and it all works offline.</p>
+      <p><a href="https://velella.sh/ebb/">Docs</a> · <a href="https://github.com/velella-sh/ebb">GitHub</a> · <a href="https://www.npmjs.com/package/@velella/ebb">npm</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/velella-sh/mizzen"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/mizzen/main/.github/assets/mark-night.svg"><img src="https://raw.githubusercontent.com/velella-sh/mizzen/main/.github/assets/mark-day.svg" width="48" height="48" alt="Mizzen"></picture></a>
+      <h3><a href="https://github.com/velella-sh/mizzen">Mizzen</a></h3>
+      <p><em>Same input. Same site.</em></p>
+      <p>A deterministic docs engine. It turns a folder of Markdown into a fast, right-to-left-ready static site, and every page keeps its exact source positions.</p>
+      <p><a href="https://velella.sh/mizzen/">Docs</a> · <a href="https://github.com/velella-sh/mizzen">GitHub</a> · <a href="https://www.npmjs.com/package/@velella/mizzen">npm</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/velella-sh/lateen"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/velella-sh/lateen/main/.github/assets/mark-night.svg"><img src="https://raw.githubusercontent.com/velella-sh/lateen/main/.github/assets/mark-day.svg" width="48" height="48" alt="Lateen"></picture></a>
+      <h3><a href="https://github.com/velella-sh/lateen">Lateen</a></h3>
+      <p><em>Easy to read. Safe to edit.</em></p>
+      <p>A docs theme for people and agents, built on Mizzen. It works without JavaScript, mirrors for right-to-left languages, and is tested against WCAG 2.2 AA.</p>
+      <p><a href="https://velella.sh/lateen/">Docs</a> · <a href="https://github.com/velella-sh/lateen">GitHub</a> · <a href="https://www.npmjs.com/package/@velella/lateen">npm</a></p>
+    </td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
 ---
 
-### How we build
+<h2 align="center">How we build</h2>
 
-- **Exact.** Every finding points to a file and a line.
-- **Sourced.** Every claim links to where it came from.
-- **Honest.** Nothing unknown is reported as safe.
-- **Local-first.** Runs on your machine. No account needed.
+<table>
+  <tr>
+    <td align="center" width="25%"><b>Exact</b><br>Every finding points to a file and a line.</td>
+    <td align="center" width="25%"><b>Sourced</b><br>Every claim links to where it came from.</td>
+    <td align="center" width="25%"><b>Honest</b><br>Nothing unknown is reported as safe.</td>
+    <td align="center" width="25%"><b>Local-first</b><br>Runs on your machine. No account needed.</td>
+  </tr>
+</table>
 
-### Why Velella
+---
 
-*Velella* is a small blue sailor of the open ocean. What looks like one animal is a colony: many polyps sharing one float and one sail. It comes in two mirror-image forms, so whichever way the wind blows, part of the colony is ready for it. Our projects work the same way: small, each with one job, sharing one way of working.
+<h2 align="center">Why Velella</h2>
 
-<sub>[Contributing](https://github.com/velella-sh/.github/blob/main/CONTRIBUTING.md) · [Security](https://github.com/velella-sh/.github/blob/main/SECURITY.md) · [velella.sh](https://velella.sh)</sub>
+<p align="center"><em>Velella</em> is a small blue sailor of the open ocean. What looks like one animal is a colony: many polyps sharing one float and one sail.<br>It comes in two mirror-image forms, so whichever way the wind blows, part of the colony is ready for it.<br>Our projects work the same way: small, each with one job, sharing one way of working.</p>
+
+<p align="center"><sub><a href="https://github.com/velella-sh/.github/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/velella-sh/.github/blob/main/SECURITY.md">Security</a> · <a href="https://velella.sh">velella.sh</a></sub></p>
