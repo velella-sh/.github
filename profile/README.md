@@ -41,7 +41,21 @@ node.deadline;  // "2025-04-30"
 
 Your agent's knowledge has a cutoff. Ebb doesn't.
 
-**[Read the README](https://github.com/velella-sh/ebb#readme)** · **[Browse the rules](https://github.com/velella-sh/ebb/tree/main/registry)** · **[Contribute a rule](https://github.com/velella-sh/ebb/blob/main/CONTRIBUTING.md)**
+**[Read the docs](https://velella.sh/ebb/)** · **[README](https://github.com/velella-sh/ebb#readme)** · **[Browse the rules](https://github.com/velella-sh/ebb/tree/main/registry)** · **[Contribute a rule](https://github.com/velella-sh/ebb/blob/main/CONTRIBUTING.md)**
+
+---
+
+### The tools our docs are built with
+
+<p align="center">
+  <a href="https://velella.sh/mizzen/"><b>Mizzen</b></a> turns Markdown into a deterministic static site that keeps exact source positions.<br>
+  <a href="https://velella.sh/lateen/"><b>Lateen</b></a> is the docs theme for people and agents, built on Mizzen.
+</p>
+
+<p align="center">
+  <a href="https://github.com/velella-sh/mizzen">Mizzen on GitHub</a> · <a href="https://www.npmjs.com/package/@velella/mizzen">npm</a> ·
+  <a href="https://github.com/velella-sh/lateen">Lateen on GitHub</a> · <a href="https://www.npmjs.com/package/@velella/lateen">npm</a>
+</p>
 
 ---
 
